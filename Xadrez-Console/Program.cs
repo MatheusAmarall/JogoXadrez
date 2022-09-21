@@ -1,5 +1,5 @@
 ﻿using System;
-using Tabuleiro;
+using TabuleiroEntities;
 
 namespace Xadrez_Console { 
     class Program
@@ -9,6 +9,8 @@ namespace Xadrez_Console {
             Posicao p = new Posicao(3, 4);
 
             Console.WriteLine("Posição: " + p);
+
+            Tabuleiro tab = new Tabuleiro(8, 8);
         }
     }
 }
