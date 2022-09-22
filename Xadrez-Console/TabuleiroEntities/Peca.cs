@@ -17,6 +17,11 @@ namespace TabuleiroEntities
             QtdeMovimentos = 0;
         }
 
+        public void IncrementarQtdeMovimentos()
+        {
+            QtdeMovimentos++;
+        }
+
 
     }
 }
